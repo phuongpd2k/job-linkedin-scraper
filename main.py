@@ -68,6 +68,7 @@ def getDetail(jobLink):
         print("Inserted: "+str(len(listData))+"rows")    
         return listData
 login()
+
 with open('jobLink.txt') as f:
         jobLinks=f.readlines()
 listDataFinal=[]
